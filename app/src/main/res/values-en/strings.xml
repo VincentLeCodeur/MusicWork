@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QRCodeScanner</string>
+    <string name="QRcodeText">"Last QRCode scanned: "</string>
+    <string name="send">Send</string>
+    <string name="Scan">Scan</string>
+</resources>
