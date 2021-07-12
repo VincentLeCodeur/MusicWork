@@ -25,15 +25,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         QRCode = findViewById(R.id.QRCode);
         BtnScan = findViewById(R.id.BtnScanner);
-        BtnScan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                IntentIntegrator intentIntegrator = new IntentIntegrator(MainActivity.this);
-                intentIntegrator.setBeepEnabled(true);
-                intentIntegrator.setOrientationLocked(true);
-                intentIntegrator.setCaptureActivity(Capture.class);
-                intentIntegrator.initiateScan();
-            }
+        BtnScan.setOnClickListener(v -> {
+            IntentIntegrator intentIntegrator = new IntentIntegrator(MainActivity.this);
+            intentIntegrator.setBeepEnabled(true);
+            intentIntegrator.setOrientationLocked(true);
+            intentIntegrator.setCaptureActivity(Capture.class);
+            intentIntegrator.initiateScan();
         });
     }
 

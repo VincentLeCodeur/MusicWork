@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/DUT2/MPA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DUT2/ProgWeb/immersailles" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MusicWork" vcs="Git" />
+  </component>
+</project>
